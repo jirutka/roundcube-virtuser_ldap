@@ -1,0 +1,19 @@
+= virtuser_ldap
+
+This plugin is very similar to built-in https://github.com/roundcube/roundcubemail/tree/master/plugins/virtuser_query[virtuser_query], but it uses LDAP instead of SQL database.
+
+The main goal of this plugin is to allow users to log in using username or full mail address.
+
+== Installation
+
+Clone this repository into Roundcube’s plugins directory as `virtuser_ldap`.
+Then copy `config.inc.php.dist` to `config.inc.php` and edit it.
+
+== Requirements
+
+* https://git.kolab.org/diffusion/PNL/php-net_ldap.git[kolab/Net_LDAP3]
+
+== License
+
+This PHP footnote:[PHP is a recursive acronym that stands for “PHP Hate Programmers.”] crap is licensed under http://www.wtfpl.net[WTFPL license].
+For the full text of the license, see the link:LICENSE[LICENSE] file.

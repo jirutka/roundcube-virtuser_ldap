@@ -1,0 +1,15 @@
+<?php
+
+$config['virtuser_ldap'] = array(
+  'name'           => 'virtuser_ldap',
+  'hosts'          => array('localhost'),
+  'port'           => 389,
+  'base_dn'        => 'ou=People,dc=example,dc=org',
+  'search_filter'  => '(objectClass=inetOrgPerson)',
+  'search_fields'  => array('mail', 'uid'),
+  'fieldmap'       => array(
+    'username' => 'uid',
+    'name'     => 'cn',
+    'email'    => 'mail'
+  )
+);
