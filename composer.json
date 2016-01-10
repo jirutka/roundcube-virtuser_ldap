@@ -1,5 +1,5 @@
 {
-  "name": "roundcube/virtuser_ldap",
+  "name": "jirutka/virtuser_ldap",
   "type": "roundcube-plugin",
   "description": "LDAP based User-to-Email and Email-to-User lookup.",
   "license": "WTFPL 2.0",
@@ -13,7 +13,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "http://plugins.roundcube.net"
+      "url": "https://plugins.roundcube.net"
     },
     {
       "type": "vcs",
