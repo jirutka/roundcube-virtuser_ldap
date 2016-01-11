@@ -3,7 +3,7 @@
   "type": "roundcube-plugin",
   "description": "LDAP based User-to-Email and Email-to-User lookup.",
   "license": "WTFPL 2.0",
-  "version": "1.0",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Jakub Jirutka",
